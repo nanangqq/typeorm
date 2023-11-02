@@ -1,14 +1,9 @@
 {
-  "name": "typeorm",
-  "private": true,
-  "version": "0.3.12",
-  "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.",
+  "name": "@nanangqq/typeorm",
+  "version": "0.3.12a",
+  "description": "forked from typeorm/typeorm. fixed jsonb_array type insertion error. \nData-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
-  },
   "engines": {
     "node": ">= 12.9.0"
   },

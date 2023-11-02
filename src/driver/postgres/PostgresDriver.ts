@@ -640,6 +640,9 @@ export class PostgresDriver implements Driver {
                 columnMetadata.type,
             ) >= 0
         ) {
+            if (columnMetadata.type==='jsonb' && columnMetadata.isArray) {
+                return value
+            }
             return JSON.stringify(value)
         } else if (columnMetadata.type === "hstore") {
             if (typeof value === "string") {
